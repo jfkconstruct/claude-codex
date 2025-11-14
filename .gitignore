@@ -1,0 +1,16 @@
+# Environment
+.env
+venv/
+__pycache__/
+
+# API keys and credentials
+**/api_keys.txt
+**/credentials.json
+
+# Large raw files
+sources/**/*.mp4
+sources/**/*.mp3
+
+# OS files
+.DS_Store
+Thumbs.db
