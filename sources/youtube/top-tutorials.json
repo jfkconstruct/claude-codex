@@ -1,0 +1,264 @@
+{
+  "metadata": {
+    "collection_date": "2024-11-14",
+    "search_query": "coding with Claude, Claude API development, Claude Code tutorials",
+    "note": "View counts not available without direct YouTube API access. Rankings based on community references, mentions in developer blogs, and discussion frequency.",
+    "data_sources": [
+      "Web search results",
+      "Developer blog references",
+      "Hacker News discussions",
+      "X (Twitter) mentions"
+    ]
+  },
+  "tutorials": [
+    {
+      "rank": 1,
+      "title": "Agentic Coding: The Future of Software Development with Agents",
+      "channel": "Unknown (mentioned by Armin Ronacher)",
+      "duration": "37 minutes",
+      "url": "Not found via search",
+      "description": "37-minute talk by Armin Ronacher describing his adventures with Claude Code and agentic coding methods. Covers how to make use of these new tools, where they are strongest, and where they are still lacking.",
+      "topics": [
+        "Claude Code vs. Cursor",
+        "Practical Usage Beyond Programming",
+        "Programming Language Recommendations",
+        "Development Environment Optimization",
+        "MCP (Model Context Protocol)",
+        "Context Management & Sub-agents",
+        "Advanced Development Patterns",
+        "Creative Use Cases"
+      ],
+      "published_date": "June 2025",
+      "popularity_indicators": {
+        "hacker_news_discussion": true,
+        "blog_references": "Multiple",
+        "developer_community_mentions": "High"
+      }
+    },
+    {
+      "rank": 2,
+      "title": "Using Claude Code to build a GitHub Actions workflow",
+      "channel": "Simon Willison",
+      "duration": "7 minutes",
+      "url": "https://www.youtube.com/watch?v=VC6dmPcin2E",
+      "description": "Screencast showing how Simon used Claude Code to put together a simple GitHub Actions workflow. Demonstrates adding a small feature to a GitHub repo - an automatically updated README index listing other files in the repo.",
+      "topics": [
+        "GitHub Actions",
+        "Claude Code workflow",
+        "Automated README generation",
+        "Real-world development example"
+      ],
+      "published_date": "July 1, 2025",
+      "popularity_indicators": {
+        "creator_reputation": "Well-known AI/tech blogger",
+        "blog_references": "Multiple",
+        "mastodon_mentions": true
+      }
+    },
+    {
+      "rank": 3,
+      "title": "Claude Code Beginner's Tutorial: Build a Movie App in 15 Minutes",
+      "channel": "Peter Yang",
+      "duration": "17 minutes",
+      "url": "Not found via search (referenced on Class Central and Creator Economy)",
+      "description": "Comprehensive tutorial teaching how to build a movie discovery app with watchlist functionality using Claude Code. Covers installation, plan mode, and persistent project memory techniques.",
+      "topics": [
+        "Installing Claude Code in terminal and Cursor",
+        "Cloning a movie app",
+        "Using plan mode for detailed specs",
+        "Initializing claude.md for persistent project memory",
+        "Building a watchlist feature"
+      ],
+      "published_date": "September 3, 2025",
+      "popularity_indicators": {
+        "featured_on_class_central": true,
+        "featured_on_creator_economy": true,
+        "beginner_friendly": true
+      }
+    },
+    {
+      "rank": 4,
+      "title": "Claude Code Beginners Guide 2025",
+      "channel": "Ian Nuttall / Geeky Gadgets",
+      "duration": "15 minutes",
+      "url": "Not found via search (mentioned on X/Twitter)",
+      "description": "Beginner-focused tutorial covering Claude Code essentials from setup to mastering Plan Mode and project-specific memory management. Shows how to set up in Cursor, add context, use slash commands, and paste images.",
+      "topics": [
+        "Setting up Claude Code in Cursor",
+        "Adding context (not by copy/pasting)",
+        "Slash commands",
+        "Image pasting",
+        "Plan Mode",
+        "Project memory management"
+      ],
+      "published_date": "2025",
+      "popularity_indicators": {
+        "x_twitter_engagement": true,
+        "geeky_gadgets_featured": true,
+        "beginner_focused": true
+      }
+    },
+    {
+      "rank": 5,
+      "title": "Advanced Guide to Claude Code: Memory, Plugins & More",
+      "channel": "Edmund Yong",
+      "duration": "Unknown",
+      "url": "youtube.com/@edmundyong (channel)",
+      "description": "Edmund Yong's video guides covering Claude Code's most powerful capabilities, including memory management that eliminates redundancy and sub-agents that delegate tasks with precision.",
+      "topics": [
+        "Memory management",
+        "Sub-agents",
+        "Custom command libraries",
+        "MCP server integration",
+        "Advanced Claude Code techniques"
+      ],
+      "published_date": "2025-2026",
+      "popularity_indicators": {
+        "advanced_content": true,
+        "geeky_gadgets_featured": true,
+        "github_presence": true
+      }
+    },
+    {
+      "rank": 6,
+      "title": "Claude Code Masterclass for Beginners",
+      "channel": "James Devonport / createwith.com",
+      "duration": "Unknown",
+      "url": "Not found (available on createwith.com platform)",
+      "description": "Masterclass covering how to get fully set up with Claude Code, including GitHub and Cursor integration. Covers building your first landing page and introduces revolutionary 'plan mode' where Claude Code strategizes its development process.",
+      "topics": [
+        "Claude Code setup",
+        "GitHub integration",
+        "Cursor setup",
+        "Building first landing page",
+        "Plan mode strategies",
+        "Transparency and control"
+      ],
+      "published_date": "2025",
+      "popularity_indicators": {
+        "platform": "createwith.com",
+        "masterclass_format": true,
+        "beginner_focused": true
+      }
+    },
+    {
+      "rank": 7,
+      "title": "Claude Code: A Highly Agentic Coding Assistant",
+      "channel": "DeepLearning.AI",
+      "duration": "Course (multiple lessons)",
+      "url": "https://www.deeplearning.ai/short-courses/claude-code-a-highly-agentic-coding-assistant/",
+      "description": "Short course built in partnership with Anthropic, taught by Elie Schoppik (Head of Technical Education at Anthropic). Andrew Ng described Claude Code as his 'personal favorite coding assistant right now.'",
+      "topics": [
+        "Agentic coding principles",
+        "Claude Code fundamentals",
+        "Best practices",
+        "Practical implementations",
+        "Real-world workflows"
+      ],
+      "published_date": "2024-2025",
+      "popularity_indicators": {
+        "official_partnership": "Anthropic x DeepLearning.AI",
+        "instructor_credentials": "Anthropic Head of Technical Education",
+        "andrew_ng_endorsement": true,
+        "platform_reputation": "DeepLearning.AI"
+      }
+    },
+    {
+      "rank": 8,
+      "title": "ChatTube: Chat with any YouTube Video with Claude AI & RAG",
+      "channel": "Vansh Kharidia (Medium)",
+      "duration": "15 minutes to build",
+      "url": "Not found (tutorial on Medium)",
+      "description": "Tutorial for creating a personal chatbot to chat with ANY YouTube video in 15 minutes using Claude AI API and Retrieval Augmented Generation (RAG). Covers establishing connection using Claude API with Langchain, using pytube to interface with YouTube videos and whisper to transcribe audio to text.",
+      "topics": [
+        "Claude API integration",
+        "RAG (Retrieval Augmented Generation)",
+        "YouTube video processing",
+        "Langchain",
+        "Audio transcription",
+        "Python implementation"
+      ],
+      "published_date": "2024-2025",
+      "popularity_indicators": {
+        "practical_project": true,
+        "api_focused": true,
+        "python_tutorial": true
+      }
+    },
+    {
+      "rank": 9,
+      "title": "Teach Claude to Watch YouTube videos and Take Notes in Notion",
+      "channel": "Nitin A Birur / Enkrypt AI (Medium)",
+      "duration": "Unknown",
+      "url": "Not found (tutorial on Medium)",
+      "description": "Tutorial teaching how to integrate Claude with YouTube video processing and Notion for automated note-taking. Demonstrates practical automation workflows using Claude's API.",
+      "topics": [
+        "Claude API",
+        "YouTube video processing",
+        "Notion integration",
+        "Automated note-taking",
+        "Workflow automation"
+      ],
+      "published_date": "2024-2025",
+      "popularity_indicators": {
+        "automation_focused": true,
+        "integration_example": true,
+        "productivity_use_case": true
+      }
+    },
+    {
+      "rank": 10,
+      "title": "Claude Code in Action",
+      "channel": "Anthropic (Skilljar training platform)",
+      "duration": "Course (multiple modules)",
+      "url": "https://anthropic.skilljar.com/claude-code-in-action",
+      "description": "Official Anthropic training providing comprehensive training on using Claude Code for software development tasks, covering the underlying architecture of AI coding assistants, practical implementation techniques, and advanced integration strategies.",
+      "topics": [
+        "Claude Code architecture",
+        "Software development tasks",
+        "Implementation techniques",
+        "Integration strategies",
+        "Best practices"
+      ],
+      "published_date": "2025",
+      "popularity_indicators": {
+        "official_anthropic_course": true,
+        "comprehensive_training": true,
+        "certification_available": true
+      }
+    }
+  ],
+  "additional_resources": {
+    "anthropic_youtube_channel": {
+      "note": "Anthropic released videos from 'Code at Claude Conference'",
+      "mentioned_by": "jason liu on X",
+      "relevance": "Official Anthropic content with standout videos"
+    },
+    "udemy_courses": [
+      {
+        "title": "Claude Code: Building Faster with AI, from Prototype to Prod",
+        "platform": "Udemy"
+      },
+      {
+        "title": "Claude Code Crash Course: Claude Code In a Day",
+        "platform": "Udemy"
+      },
+      {
+        "title": "Claude Code: Getting Started",
+        "platform": "Udemy"
+      }
+    ],
+    "coursera_courses": [
+      {
+        "title": "Claude Code: Software Engineering with Generative AI Agents",
+        "platform": "Coursera"
+      }
+    ]
+  },
+  "search_limitations": {
+    "view_counts": "Not available without direct YouTube API access",
+    "exact_urls": "Many videos referenced in articles but URLs not directly accessible via web search",
+    "ranking_methodology": "Based on frequency of mentions, community engagement, official partnerships, and creator reputation rather than view counts",
+    "recommendation": "For exact view counts and complete URLs, direct YouTube search or YouTube API access would be required"
+  }
+}
