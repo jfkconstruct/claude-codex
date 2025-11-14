@@ -1,0 +1,106 @@
+{
+  "mcpServers": {
+    "context7": {
+      "command": "context7-mcp",
+      "args": [
+        "--libraries",
+        "nextjs,react,typescript,tailwindcss,prisma,react-query,zod,next-auth"
+      ],
+      "description": "Up-to-date documentation for popular libraries (Priority #1)",
+      "env": {}
+    },
+
+    "supabase": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@supabase/mcp-server",
+        "--supabase-url",
+        "${SUPABASE_URL}",
+        "--supabase-key",
+        "${SUPABASE_SERVICE_KEY}"
+      ],
+      "description": "Direct database access for queries and analytics",
+      "env": {
+        "SUPABASE_URL": "${SUPABASE_URL}",
+        "SUPABASE_SERVICE_KEY": "${SUPABASE_SERVICE_KEY}"
+      }
+    },
+
+    "playwright": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-playwright"],
+      "description": "Browser automation for testing and web research",
+      "env": {}
+    },
+
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/Users/${USER}/Documents"
+      ],
+      "description": "Extended file system access (use carefully)",
+      "env": {}
+    }
+  },
+
+  "_comments": {
+    "installation": [
+      "Install MCP servers before using:",
+      "npm install -g @context7/mcp-server",
+      "npm install -g @supabase/mcp-server",
+      "",
+      "Playwright and filesystem use npx (no install needed)"
+    ],
+
+    "environment_variables": [
+      "Set these in your environment:",
+      "export SUPABASE_URL=https://xxx.supabase.co",
+      "export SUPABASE_SERVICE_KEY=eyJhbGci...",
+      "",
+      "Or create .env.local:",
+      "SUPABASE_URL=https://xxx.supabase.co",
+      "SUPABASE_SERVICE_KEY=eyJhbGci...",
+      "",
+      "Then: export $(cat .env.local | xargs)"
+    ],
+
+    "priority": [
+      "1. context7 (ALWAYS install, universally valuable)",
+      "2. Database MCP (if using database)",
+      "3. playwright (if testing/research needs)",
+      "4. Others (evaluate cost/benefit)"
+    ],
+
+    "security": [
+      "NEVER commit this file with real secrets!",
+      "Use environment variables (${VAR_NAME})",
+      "Add .env.local to .gitignore",
+      "Use service role keys only in secure environments"
+    ],
+
+    "customization": [
+      "For context7, list your actual libraries:",
+      "  nextjs, react, vue, svelte, angular",
+      "  tailwindcss, bootstrap, chakra-ui",
+      "  prisma, typeorm, drizzle",
+      "  react-query, swr, apollo",
+      "  zod, yup, joi",
+      "  and 1000+ more supported libraries"
+    ],
+
+    "troubleshooting": [
+      "If MCP not found:",
+      "  1. Verify installation: which context7-mcp",
+      "  2. Try full path: /usr/local/bin/context7-mcp",
+      "  3. Restart Claude Code",
+      "",
+      "If authentication fails:",
+      "  1. Check environment variables: echo $SUPABASE_URL",
+      "  2. Verify API keys in service dashboard",
+      "  3. Check permissions (service role vs anon key)"
+    ]
+  }
+}
